@@ -50,6 +50,7 @@ recipe then looks elegant and fits in the box of recipes.
 %doc %{_texmfdistdir}/doc/latex/recipecard/test2.tex
 #- source
 %doc %{_texmfdistdir}/source/latex/recipecard/recipecard.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +61,5 @@ recipe then looks elegant and fits in the box of recipes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
