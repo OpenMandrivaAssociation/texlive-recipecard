@@ -51,3 +51,17 @@ recipe then looks elegant and fits in the box of recipes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0-2
++ Revision: 755635
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0-1
++ Revision: 719438
+- texlive-recipecard
+- texlive-recipecard
+- texlive-recipecard
+- texlive-recipecard
+
