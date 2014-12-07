@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-recipecard
 Version:	2.0
-Release:	8
+Release:	9
 Summary:	Typeset recipes in note-card-sized boxes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/recipecard
